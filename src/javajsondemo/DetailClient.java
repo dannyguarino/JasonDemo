@@ -16,9 +16,9 @@ public class DetailClient {
     String pattern = "yyyy-MM";
     SimpleDateFormat format = new SimpleDateFormat(pattern);
 
-    private String clientID;
-    private String date;
-    private String contrat;
+    final private String clientID;
+    final private String date;
+    final private String contrat;
     private ArrayList<DetailRecl> reclamations = new ArrayList();
 
     public DetailClient(String id, String date, String contrat) {
